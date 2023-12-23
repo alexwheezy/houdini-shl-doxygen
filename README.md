@@ -26,20 +26,27 @@ For Linux Distribution:
 
 - Build from source:
     - Install [doxygen](https://www.doxygen.nl "Generate documentation from source code") from source or use pre-built realeses
-        - Check if doxygen is installed correctly from the terminal: `doxygen
-          --version`
-    - In the `houdini-shl-doxygen/src` directory, create a new `include` directory:
+        - Check if doxygen is installed correctly from the terminal:  
+        ```bash
+        >>> doxygen --version
+        >>> 1.9.8
+        ```
+    - In the **houdini-shl-doxygen** directory, create a new **include** directory:
     ```bash
-    cd houdini-shl-doxygen
-    mkdir -p src/include/{ocl,osl,vex}
+    >>> cd houdini-shl-doxygen
+    >>> mkdir -p src/include/{ocl,osl,vex}
     ```
-    - Copy the contents of the `include` vex, osl, ocl directories from the `$HFS/houdini` directory to `houdini-shl-doxygen/src/include`:
+    - Copy the contents of the **include** vex, osl, ocl directories from the **$HFS/houdini** directory to **houdini-shl-doxygen/src/include**:
     ```bash
-    cp -r $HFS/houdini/ocl/include src/include/ocl && cp -r $HFS/houdini/osl/include src/include/osl && cp -r $HFS/houdini/vex/include src/include/vex
+    >>> cp -r $HFS/houdini/ocl/include src/include/ocl && cp -r $HFS/houdini/osl/include src/include/osl && cp -r $HFS/houdini/vex/include src/include/vex
     ```
-    - Building new documentation from header files:
-    `doxygen Doxyfile -l DoxygenLayout.xml`
+    - Building new documentation from header files:  
+    ```bash
+    >>> doxygen Doxyfile -l DoxygenLayout.xml
+    ```
+    - Optional:
         - You can also use an application with the `doxywizard` interface to generate documentation.
+        - You can use whatever structure you want within the **include** directory to create your own documentation or extend an existing one.
     - After this, new documentation will be generated.  
 
 For a Windows build, many of the steps will be very similar.
