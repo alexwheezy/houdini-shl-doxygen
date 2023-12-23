@@ -64,4 +64,5 @@ For a Windows build, many of the steps will be very similar.
 
 ## Known issues and restriction
 - The header files were not specifically prepared for generating documentation so the search structure is fuzzy.
+- The types, functions, structures defined in the standard Houdini help are not available in this part of the documentation. Therefore it is not possible to make a jump from the documentation to the point function for example.
 - As the header files are proprietary to SideFX the documentation cannot be used for commercial purposes.
