@@ -18,11 +18,18 @@ doxygen>=1.9.8
 ## Installation
 For Linux Distribution:
 - Pre-built:
-    - Extract the archive `tar xvf shl-doxygen-*.tar.gz` or `7z x shl-doxygen-*.7z` or manually.
-    - Copy the directory `cp -R houdini-shl-doxygen/build/houdiniX.Y $HOME/houdiniX.Y` to directory for storing user preference files. Or to another directory defined by the user to store the settings defined in the variable `$HOUDINI_USER_PREF_DIR`
+    - Extract the archive: 
+    ```bash
+    >>> tar xvf shl-doxygen-*.tar.gz` or `7z x shl-doxygen-*.7z
+    ```
+    - Copy the directory **houdini-shl-doxygen/build/houdiniX.Y**
+    ```bash
+    cp -R houdini-shl-doxygen/build/houdiniX.Y $HOME/houdiniX.Y
+    ``` 
+    to directory for storing user preference files. Or to another directory defined by the user to store the settings defined in the variable **$HOUDINI_USER_PREF_DIR**
     - The documentation will then be locally available from Houdini.  
     To go to the new documentation page:  
-    `Help -> Contents -> APIs -> Standard Houdini Library`<br></br>
+    *Help -> Contents -> APIs -> Standard Houdini Library*<br></br>
 
 - Build from source:
     - Install [doxygen](https://www.doxygen.nl "Generate documentation from source code") from source or use pre-built realeses
