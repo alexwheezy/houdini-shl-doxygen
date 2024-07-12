@@ -1,0 +1,35 @@
+= APIs =
+
+"""Lists all the reference documentation for the ways you can program Houdini."""
+
+@subtopics
+
+=== HOM ===
+::[Houdini Python API|/hom/hou/index]
+
+=== HScript ===
+::[HScript expressions|/expressions/index]
+::[HScript commands|/commands/index]
+
+=== VEX ===
+::[VEX functions|/vex/functions/index]
+
+=== SHL ===
+::[Standard Houdini Library|/shl/html/index]
+
+=== PDG ===
+::[PDG Python API|/tops/pdg/index]
+::[PDG Job Python API|/tops/jobapi]
+
+=== HAPI ===
+::[Houdini Engine C API|https://www.sidefx.com/docs/hengine/]
+::[Houdini Engine Python API|/hapi/index]
+
+=== HQueue ===
+::[HQueue Remote Python API|/hqueue/api]
+
+=== HDK ===
+::[Houdini C++ Development Kit|https://www.sidefx.com/docs/hdk/]
+
+=== HWEBSERVER ===
+::[Houdini Embedded webserver|/hwebserver/index]
