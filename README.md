@@ -27,10 +27,6 @@ For Linux Distribution:
     cp -R houdini-shl-doxygen/build/houdiniX.Y $HOME/houdiniX.Y
     ```
     to directory for storing user preference files. Or to another directory defined by the user to store the settings defined in the variable **$HOUDINI_USER_PREF_DIR**
-    - And it's also necessary to copy the package
-    ```bash
-    cp -R houdini-shl-doxygen/package $HOME/houdiniX.Y
-    ```
     - The documentation will then be locally available from Houdini.
     *Help -> Contents -> APIs -> Standard Houdini Library*<br></br>
 
